@@ -57,6 +57,7 @@ public abstract class BaseCompilerTestCase extends JavaModuleTestCase {
   @Override
   protected void setUp() throws Exception {
     super.setUp();
+    System.out.println();
     CompilerTestUtil.enableExternalCompiler();
   }
 
